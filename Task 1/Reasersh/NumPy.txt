@@ -1,0 +1,55 @@
+Answer the following questions clearly and concisely:
+Question 1:
+
+If the dataset becomes very large (for example, hundreds of 
+thousands or millions of samples), why would a NumPy-based 
+implementation be significantly faster and more efficient than 
+using pure Python loops?
+
+--> Because:
+1. NumPy is written by (C) not (Python),(Python) is too slow ,while (C) is a Low-level language which is way faster than (Python)
+
+2. NumPy reads the data as (vectors-matrices) and always run by loops which decrease the time of compiling
+
+3. NumPy runs at all data in one time not step by step
+
+4. NumPy is low memory consumer ,that makes the compiling runs very fast
+
+5. NumPy supports executing multiple operations within the same CPU clock cycle ,This significantly speeds up large-scale numerical computations
+
+
+
+
+
+Question 2:
+
+
+If some features are highly correlated or duplicated 
+(multicollinearity), what mathematical problem can 
+occur in the Normal Equation?
+Why does this happen?
+How can it be solved without simply removing features 
+or losing useful information?
+
+--> 1. The Problem:
+
+The issue is the inability to compute the inverse of the matrix
+(X^T X)^−1
+because the matrix becomes singular or non-invertible
+
+2. Why does this happen?
+
+This occurs because:
+
+. When features are highly correlated or duplicated, the rows or columns of the matrix become linearly dependent.
+. As a result, the determinant of the matrix becomes zero, which makes it non-invertible.
+
+3. How can we solve the problem without removing any features?
+
+The most common and effective solution is to use the (Moore–Penrose Pseudoinverse),Instead of computing:
+θ=(X^T X)^−1 X^T y
+We compute:
+θ=X^+ y
+Where:
+X^+
+is the pseudo-inverse, which is calculated using Singular Value Decomposition (SVD).
