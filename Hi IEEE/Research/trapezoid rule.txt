@@ -1,0 +1,61 @@
+The trapezoid rule is a numerical method used to approximate the value of a definite integral Instead of integrating exactly, we approximate the area under the curve using trapezoids
+
+If we divide the interval [a,b][a, b][a,b] into nnn equal subintervals:
+
+
+Width of each subinterval
+
+h=(b−a​)/n
+
+b
+∫​f(x)dx≈2h​[f(x0​)+2f(x1​)+2f(x2​)+⋯+2f(xn−1​)+f(xn​)]
+a
+
+
+Where:
+
+x0=ax_0 = ax0​=a
+xn=bx_n = bxn​=b
+Points in between: xi=a+ihx_i = a + ihxi​=a+ih
+
+
+
+ Example: Simple Case (n = 1)
+
+
+Approximate:
+
+2  
+∫(x^2+1) dx
+0
+
+
+Using 1 trapezoid (n = 1):
+
+
+Step 1: Compute h
+
+
+h= (2−0)/1 =2
+
+Step 2: Evaluate the function at the endpoints
+
+f(0)=0^2+1=1
+
+f(2)=2^2+1=5
+
+Step 3: Apply formula
+
+
+2
+∫f(x) dx≈(2/2)(1+5)=6
+0
+
+Actual exact integral (for comparison):
+
+
+2                      2
+∫(x^2+1) dx=((x^3/3)+x)=(8/3)+2=14/3≈4.67
+0                      0
+
+The approximation is close but not perfect because we used only one trapezoid.
