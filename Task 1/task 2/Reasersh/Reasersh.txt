@@ -1,0 +1,57 @@
+Conclusion
+
+After cleaning the data and analyzing the Titanic dataset, we found several important patterns that explain who had a better chance of surviving the disaster.
+
+1. Gender had the biggest effect.
+
+
+Women survived much more than men. This shows that during the evacuation, the rule “women and children first” was followed.
+
+
+2. Passenger class made a big difference.
+
+
+People in 1st class survived the most, followed by 2nd class, and 3rd class had the lowest survival rate. This means that richer passengers had better access to lifeboats.
+
+
+3. Ticket price (Fare) is related to survival.
+
+
+Passengers who paid higher ticket prices were more likely to survive. This matches the pattern we saw with passenger class.
+
+
+4. Age affected survival.
+
+
+Children had higher survival rates than adults, especially very young children. Older passengers had the lowest survival.
+
+
+5. Family size mattered.
+
+
+Passengers with small families (2–4 people) survived more than people who were alone or had very large families. Being alone reduced survival chances, and having many dependents made it harder to escape.
+
+
+6. Having a cabin increased survival chances.
+
+
+Passengers who had a cabin (usually on higher and safer decks) survived more than those without one.
+
+
+7. Titles in names showed social differences.
+
+
+Passengers with titles like Mrs, Miss, or Master survived more than those with Mr, showing differences in age, gender, and social status.
+
+
+
+Real‑World Meaning
+
+
+These findings show that survival on the Titanic was not random. It depended strongly on:
+
+gender
+social class
+age
+money
+where the person stayed on the ship
